@@ -32,7 +32,7 @@ function inputNameCountry(e) {
         return;
       }
 
-      if (countrs.length <= 10) {
+      if (countries.length <= 10) {
         const listMarkup = countries.map(country => showCountries(country));
         countriesList.innerHTML = listMarkup.join('');
         countryInfo.innerHTML = '';
