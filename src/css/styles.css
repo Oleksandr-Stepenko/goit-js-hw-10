@@ -39,8 +39,11 @@ p {
 }
 
 h2 {
+	display: flex;
 	margin-left: 10px;
+	align-items: center;
 }
+
 .flag {
 	display: flex;
 	margin-bottom: 10px;
