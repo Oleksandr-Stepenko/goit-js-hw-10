@@ -59,17 +59,17 @@ function showInfoCountry({ flags, name, capital, population, languages }) {
       <img src="${flags.svg}" alt="${name.official}" width="50" />
       <h2 class="country-name">${name.official}</h2>
     </div>
-    <p><span>Capital:</span> ${capital}</p>
-    <p><span>Population:</span> ${population}</p>
-    <p><span>Languages:</span> ${Object.values(languages)}</p>
+    <p><span class="info">Capital:</span> ${capital}</p>
+    <p><span class="info">Population:</span> ${population}</p>
+    <p><span class="info">Languages:</span> ${Object.values(languages)}</p>
   </div>
   `;
 }
 
 function showCountries({ flags, name }) {
   return `
-  <li>
-    <img src="${flags.svg}" alt="${name.official}" width="25" />
+  <li class="flag">
+    <img src="${flags.svg}" alt="${name.official}" width="80" />
     <h2>${name.official}</h2>
   </li>
   `;

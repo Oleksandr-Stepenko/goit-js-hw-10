@@ -18,3 +18,41 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+	margin-left: 10px;
+}
+.flag {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.info {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+  height: auto;
+}
