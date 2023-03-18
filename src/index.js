@@ -57,7 +57,7 @@ function showInfoCountry({ flags, name, capital, population, languages }) {
 	<div>
     <div>
       <img src="${flags.svg}" alt="${name.official}" width="50" />
-      <h2 class="country-name">${name.official}</h2>
+      <h1 class="country-name">${name.official}</h1>
     </div>
     <p><span class="info">Capital:</span> ${capital}</p>
     <p><span class="info">Population:</span> ${population}</p>
